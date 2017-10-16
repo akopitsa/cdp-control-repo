@@ -5,3 +5,4 @@ mod 'nginx',
 mod 'puppetlabs-ntp', '6.2.0'
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-concat'
+mod 'puppetlabs-apache', '0.9.0'
