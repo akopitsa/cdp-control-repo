@@ -1,0 +1,8 @@
+classes:
+  - common_class1_PROD
+  - common_class2_PROD
+roles:
+  common_role1:
+    key1: value1
+    key2: value2
+common: common_value_PROD
