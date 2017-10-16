@@ -1,0 +1,8 @@
+classes:
+  - common_class1_DEV
+  - common_class2_DEV
+roles:
+  common_role1:
+    key1: value1
+    key2: value2
+common: common_value_DEV
