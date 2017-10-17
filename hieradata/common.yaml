@@ -26,7 +26,7 @@ users:
 #    gid: 10001
     managehome: true
     groups:
-      - sudo
+      - adm
       - apache
       - vboxsf
   viltalii_ielakov:
@@ -37,5 +37,5 @@ users:
 #    gid: 10002
     managehome: true
     groups:
-      - sudo
+      - adm
       - vboxsf
