@@ -1,0 +1,18 @@
+classes:
+  - apache
+
+apache::vhosts:
+  andrii.kopytsia.com:
+    port: 80
+    docroot: /var/www/andrii.kopytsia.com
+    docroot_owner: root
+    docroot_group: root
+    options:
+      - Indexes
+      - FollowSymLinks
+      - MultiViews
+    override: all
+
+  vitalii.ielakov.com:
+    port: 80
+    docroot: /var/www/vitalii.ielakov.com
