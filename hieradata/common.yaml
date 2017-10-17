@@ -22,8 +22,8 @@ users:
     ensure: present
     home: /home/andrii_kopytsia
     shell: /bin/bash
-    uid: 10001
-    gid: 10001
+#    uid: 10001
+#    gid: 10001
     managehome: true
     groups:
       - sudo
@@ -33,8 +33,8 @@ users:
     ensure: present
     home: /home/viltalii_ielakov
     shell: /bin/bash
-    uid: 10002
-    gid: 10002
+#    uid: 10002
+#    gid: 10002
     managehome: true
     groups:
       - sudo
