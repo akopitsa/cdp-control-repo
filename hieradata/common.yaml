@@ -16,3 +16,26 @@ apache::vhosts:
   vitalii.ielakov.com:
     port: 80
     docroot: /var/www/vitalii.ielakov.com
+
+users:
+  andrii_kopytsia:
+    ensure: present
+    home: /home/andrii_kopytsia
+    shell: /bin/bash
+    uid: 10001
+    gid: 10001
+    managehome: true
+    groups:
+      - sudo
+      - apache
+      - vboxsf
+  viltalii_ielakov:
+    ensure: present
+    home: /home/viltalii_ielakov
+    shell: /bin/bash
+    uid: 10002
+    gid: 10002
+    managehome: true
+    groups:
+      - sudo
+      - vboxsf
