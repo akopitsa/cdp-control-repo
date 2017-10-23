@@ -29,7 +29,7 @@ users:
     groups:
       - adm
       - apache
-      - vboxsf
+#      - vboxsf
   viltalii_ielakov:
     ensure: present
     home: /home/viltalii_ielakov
@@ -39,4 +39,4 @@ users:
     managehome: true
     groups:
       - adm
-      - vboxsf
+#      - vboxsf
