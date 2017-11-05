@@ -1,5 +1,6 @@
 classes:
   - apache
+  - ssh
 
 apache::vhosts:
   andrii.kopytsia.com:
