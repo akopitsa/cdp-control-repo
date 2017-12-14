@@ -2,6 +2,7 @@ classes:
   - apache
   - ssh
 
+
 apache::vhosts:
   andrii.kopytsia.com:
     port: 80
@@ -29,7 +30,6 @@ users:
     password: '$6$5KhCUA4T$FicxWLG7EUeLnxg7ZCqBPCPUhvmbEgFN5PCWlmMCtVkLTslw5Kr1jTcCnzubZApx3TJQ3HRF4uXYWmTEyYoXw0'
     groups:
       - adm
-      - apache
 #      - vboxsf
   viltalii_ielakov:
     ensure: present
