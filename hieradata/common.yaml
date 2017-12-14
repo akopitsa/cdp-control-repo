@@ -2,7 +2,6 @@ classes:
   - apache
   - apache::mod::rewrite
   - apache::mod::prefork
-  - apache::mod::php
   - ssh
 
 
