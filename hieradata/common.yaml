@@ -3,12 +3,14 @@ classes:
   - ssh
   - php
 
-
+php::ensure: latest
 
 apache::mod:
   php: {}
   rewrite: {}
   prefork: {}
+
+
 
 
 apache::vhosts:
