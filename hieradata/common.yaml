@@ -2,11 +2,7 @@ classes:
   - apache
   - ssh
 
-apache::mpm_module:
-
-apache::mod:
-  php:
-  rewrite:
+apache::mpm_module: prefork
 
 
 apache::vhosts:
