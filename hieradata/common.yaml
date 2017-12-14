@@ -1,9 +1,9 @@
 classes:
   - apache
   - ssh
+  - php
 
 
-php::ensure: latest
 
 apache::mod:
   php: {}
