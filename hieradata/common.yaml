@@ -1,8 +1,10 @@
 classes:
   - apache
   - ssh
-  - php::ensure: latest
+  - php
 
+php:
+  ensure: latest
 
 
 apache::mod:
