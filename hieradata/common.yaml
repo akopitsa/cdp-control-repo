@@ -7,8 +7,6 @@ classes:
 apache::mod:
   php: {}
   rewrite: {}
-  worker:
-    ensure: absent
   prefork: {}
 
 
