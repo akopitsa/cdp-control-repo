@@ -3,8 +3,10 @@ classes:
   - ssh
 
 apache::mod:
-  php:
-  rewrite:
+  mod_php:
+    package: php
+    package_ensure: present
+
 
 apache::vhosts:
   andrii.kopytsia.com:
@@ -21,6 +23,7 @@ apache::vhosts:
   vitalii.ielakov.com:
     port: 80
     docroot: /var/www/vitalii.ielakov.com
+    ensure: absent
 
 users:
   andrii_kopytsia:
