@@ -3,9 +3,10 @@ classes:
   - ssh
 
 php:
-  php::ensure: latest
-  php::manage_repos: true
-  php::pear: true
+  ensure: latest
+  manage_repos: true
+  pear: true
+
 
 apache::mod:
   php: {}
