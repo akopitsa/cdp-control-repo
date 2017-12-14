@@ -3,6 +3,7 @@ classes:
   - ssh
 
 apache::mod::php:
+apache::mod::rewrite:
 
 apache::vhosts:
   andrii.kopytsia.com:
