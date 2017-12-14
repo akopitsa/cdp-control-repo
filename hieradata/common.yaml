@@ -5,7 +5,8 @@ classes:
 
 apache::mod:
   php:
-  rewrite:
+    package: mod_php
+
 
 apache::vhosts:
   andrii.kopytsia.com:
