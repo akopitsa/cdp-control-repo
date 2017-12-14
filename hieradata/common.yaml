@@ -3,9 +3,8 @@ classes:
   - ssh
 
 apache::mod:
-  mod_php:
-    package: php
-    package_ensure: present
+  php:
+  rewrite:
 
 
 apache::vhosts:
