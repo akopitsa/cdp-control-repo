@@ -3,7 +3,7 @@ classes:
   - ssh
   - php
 
-php::ensure: absent
+php::ensure: false
 php::manage_repos: false
 php::mod: false
 php::dev: false
