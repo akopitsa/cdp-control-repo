@@ -1,6 +1,6 @@
 classes:
   - apache
-  - apache::mpm_module::prefork
+  - apache::mod::php
   - apache::mod::rewrite
   - ssh
 
