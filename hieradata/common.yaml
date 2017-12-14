@@ -1,17 +1,7 @@
 classes:
   - apache
   - ssh
-  - php
 
-php::ensure: false
-php::manage_repos: false
-php::mod: false
-php::dev: false
-php::composer: false
-php::pear: false
-php::phpunit: false
-php::fpm::config::log_level: notice
-php::composer::auto_update: false
 
 
 apache::mod:
