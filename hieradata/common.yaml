@@ -2,10 +2,11 @@ classes:
   - apache
   - ssh
 
+apache::mpm_module: false
+apache::mod::prefork: true
+apache::mod::php: true
 
-apache::mod:
-  php:
-    package_name: mod_php
+
 
 
 apache::vhosts:
