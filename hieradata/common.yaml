@@ -5,7 +5,7 @@ classes:
 
 apache::mod:
   php:
-    package: mod_php
+    package_name: mod_php
 
 
 apache::vhosts:
