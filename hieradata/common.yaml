@@ -2,11 +2,8 @@ classes:
   - apache
   - ssh
 
-php:
-  ensure: latest
-  manage_repos: true
-  pear: true
 
+php::ensure: latest
 
 apache::mod:
   php: {}

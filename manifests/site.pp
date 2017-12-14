@@ -14,5 +14,4 @@ create_resources('apache::mod', $mod)
 $node_users = hiera_hash('users')
 create_resources(user, $node_users, {})
 
-$node_php = hiera('php')
-create_resources(php, $node_php)
+
