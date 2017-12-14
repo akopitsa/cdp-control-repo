@@ -4,6 +4,7 @@ classes:
   - php
 
 php::ensure: latest
+manage_repos: true
 
 apache::mod:
   php: {}
