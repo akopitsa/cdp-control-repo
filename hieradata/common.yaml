@@ -1,12 +1,12 @@
 classes:
   - apache
-  - apache::mod::prefork
-  - apache::mod::rewrite
   - ssh
 
 
 
-
+apache::mod:
+  php: {}
+  rewrite: {}
 
 
 apache::vhosts:
