@@ -1,8 +1,7 @@
 classes:
   - apache
   - ssh
-
-apache::mpm_module: prefork
+  - apache::mpm_module: prefork
 
 
 apache::vhosts:
