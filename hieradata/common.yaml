@@ -5,7 +5,7 @@ classes:
 
 php::ensure: latest
 php::manage_repos: true
-php::fpm: true
+php::mod: true
 php::dev: true
 php::composer: true
 php::pear: true
