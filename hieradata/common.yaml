@@ -2,8 +2,9 @@ classes:
   - apache
   - ssh
 
-apache::mod::php:
-  package_name: mod_php
+apache::mod:
+  php:
+  rewrite:
 
 apache::vhosts:
   andrii.kopytsia.com:
