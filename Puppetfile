@@ -10,5 +10,5 @@ mod 'puppetlabs-apache', '2.3.0'
 mod 'puppetlabs-concat', '4.0.1'
 mod 'puppetlabs-apt', '4.4.1'
 mod 'ntp',
-  git: 'git@github.com:akopitsa/mypuppetntpmodule.git'
+  git: 'https://github.com/akopitsa/mypuppetntpmodule.git'
  
