@@ -1,8 +1,7 @@
 classes:
-  - apache
+#  - apache
   - ssh
-
-
+  - ntp
 
 apache::mod:
   php: {}
