@@ -1,9 +1,9 @@
 classes:
 #  - apache
   - ssh
-#  - ntp
+  - ntp
   - wordpress
-  - profile::base
+#  - profile::base
 
 #apache::mod:
 #  php: {}
