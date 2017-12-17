@@ -16,4 +16,6 @@ mod 'puppet-selinux', '1.5.0'
 mod 'ntp',
   git: 'https://github.com/akopitsa/mypuppetntpmodule.git'
  mod 'wordpress',
-   git: 'https://github.com/akopitsa/puppet-my-wordpress.git'
+  git: 'https://github.com/akopitsa/puppet-my-wordpress.git'
+mod 'profile',
+  git: 'https://github.com/akopitsa/start-puppet-profile.git'
