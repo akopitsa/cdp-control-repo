@@ -1,5 +1,4 @@
 hiera_include('classes')
-hiera_include('profile::base')
 
 #$myvhosts = hiera('apache::vhosts', {})
 #create_resources('apache::vhost', $myvhosts)

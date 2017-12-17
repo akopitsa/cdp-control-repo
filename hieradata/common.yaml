@@ -3,6 +3,7 @@ classes:
   - ssh
   - ntp
   - wordpress
+  - profile::base
 
 #apache::mod:
 #  php: {}
