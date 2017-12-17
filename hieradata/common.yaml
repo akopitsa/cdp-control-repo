@@ -4,7 +4,7 @@ classes:
   - ntp
   - wordpress
 #  - profile::base
-
+wordpress::conf::file_name: latest.tar.gz
 #apache::mod:
 #  php: {}
 #  rewrite: {}
